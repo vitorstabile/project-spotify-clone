@@ -6,15 +6,27 @@
 
 /* =========================================== Layout =========================================== */
 
+
+
+
 /* -- Navigation Bar -- */
 .img-logo{
 	height: 40px;
 	width: 132px;
 	display: block;
 	background: url('../img/spotify.svg') no-repeat;
-	border: 1px solid red;
 	background-size: contain;
+	color: transparent;
 }
 
+nav.navbar-transparent{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
 
 /* =========================================== Typography =========================================== */
