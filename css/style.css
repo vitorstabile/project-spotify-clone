@@ -69,9 +69,42 @@ nav.navbar-transparent{
 	vertical-align: middle;
 }
 
+/* -- Buttons -- */
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-purple{
+	background: #7c25f8;
+}
+
+.btn-purple:hover{
+	background: #6207e3;
+	color: white;
+}
+
+.btn-white{
+	border: 2px solid white;
+}
+
+.btn-white:hover{
+	background-color: white;
+	color: black;
+}
+
 /* =========================================== Typography =========================================== */
 
 h1{
 	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
