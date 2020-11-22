@@ -1,11 +1,20 @@
-.marcador{
+/*
+*
+* @author Vitor Garcia
+@@version 0.1
+*/
 
-	background: #fe9d9d;
-	border: 1px solid #f94646;
+/* =========================================== Layout =========================================== */
+
+/* -- Navigation Bar -- */
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../img/spotify.svg') no-repeat;
+	border: 1px solid red;
+	background-size: contain;
 }
 
-.marcador2{
 
-	background: #5bf946;
-	border: 1px solid #36ae26;
-}
+/* =========================================== Typography =========================================== */
