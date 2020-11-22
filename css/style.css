@@ -6,7 +6,12 @@
 
 /* =========================================== Layout =========================================== */
 
-
+body{
+	border: 1px solid red;
+	background: url('../img/capa.png'), 
+				url('../img/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);					  ;
+}
 
 
 /* -- Navigation Bar -- */
@@ -44,5 +49,9 @@ nav.navbar-transparent{
 .navbar-inverse .navbar-nav>li>a:hover{
 	color: #9bf0e1;
 }
+
+/* -- Main Page -- */
+
+
 
 /* =========================================== Typography =========================================== */
