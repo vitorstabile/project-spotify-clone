@@ -29,4 +29,11 @@ nav.navbar-transparent{
 	padding: 5px 15px;
 }
 
+.divider{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
 /* =========================================== Typography =========================================== */
